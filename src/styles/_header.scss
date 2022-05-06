@@ -17,6 +17,7 @@
     display: flex;
     align-items: center;
     column-gap: 12.5px;
+    margin: 15px 0;
   }
 
   .menu__list {
@@ -37,21 +38,42 @@
     }
   }
 
-  .btn-login {
-    border: 2px solid transparent;
-    border-radius: 22px;
-    border-image: linear-gradient(#BC9CFF, #8BA4F9) border-box;
-    -webkit-mask: 
-      linear-gradient(#fff 0 0) padding-box, 
-      linear-gradient(#fff 0 0);
-    -webkit-mask-composite: xor;
-    mask-composite: exclude;
-    pointer-events: none;
-    color: #bc9cff;
-    border-image-slice: 1;
+  button {
+    font-weight: bold;
+    text-transform: uppercase;
     font-size: 12px;
     line-height: 15px;
-    text-transform: uppercase;
+  }
+
+  .btn-login, .btn-reg{
+    font: inherit;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    border: 0;
     padding: 10px 20px;
+    position: relative;
+    border-radius: 22px;
+    z-index: 1;
+    color: #bc9cff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .btn-login::before {
+    content: "";
+    display: block;
+    height: calc(100% - calc(2px * 2));
+    width: calc(100% - calc(2px * 2));
+    background: white;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: calc(22px - 2px);
+    z-index: -1;
+  }
+
+  .btn-reg{
+    color: #fff;
   }
 }
