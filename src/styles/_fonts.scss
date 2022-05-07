@@ -1,3 +1,5 @@
+@import url('../fonts/iconfont/material-icons.scss');
+
 @font-face {
   font-family: "MontserratRegular";
   src: url("../fonts/Montserrat/MontserratRegular/Montserrat-Regular.woff");
@@ -15,15 +17,6 @@
   font-style: normal;
   font-weight: 700;
 }
-
-@font-face {
-  font-family: 'MaterialIconsRegular';
-  src: url('../fonts/MaterialIcons/MaterialIconsRegular/MaterialIcons-Regular.woff');
-  src: url('../fonts/MaterialIcons/MaterialIconsRegular/MaterialIcons-Regular.ttf') format('truetype'),
-      url('../fonts/MaterialIcons/MaterialIconsRegular/MaterialIcons-Regular.svg') format('svg');
-  font-style: normal;
-  font-weight: normal;
-} 
 
 * {
   font-family: 'Montserrat';
