@@ -1,0 +1,83 @@
+.footer {
+  .container {
+    width: 1440px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-right: 140px;
+    margin-left: 140px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .main {
+    margin-right: 40px;
+  }
+
+  .nav {
+    margin-right: 57px;
+  }
+
+  .about {
+    margin-right: 92px;
+  }
+
+  .support {
+    margin-right: 51px;
+  }
+
+  .logo {
+    display: flex;
+    column-gap: 12.5px;
+    margin-bottom: 20px;
+  }
+
+  .main,
+  .submit {
+    width: 260px;
+  }
+
+  .main__title {
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.75);
+  }
+
+  li {
+    margin-bottom: 20px;
+  }
+
+  .topic {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #1f2041;
+    margin-bottom: 21px;
+  }
+
+  li a {
+    line-height: 17px;
+    color: rgba(31, 32, 65, 0.5);
+  }
+
+  .submit__text {
+    margin-bottom: 20px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.75);
+  }
+
+  .sumit__input{
+    width: 100%;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    border-radius: 4px;
+    padding-left: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
