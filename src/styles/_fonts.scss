@@ -1,10 +1,12 @@
-@import url('../fonts/iconfont/material-icons.scss');
+@import url("../fonts/iconfont/material-icons.scss");
+@import url("../fonts/FontAwesome5/scss/fontawesome.scss");
+@import url("../fonts/FontAwesome5/scss/brands.scss");
 
 @font-face {
   font-family: "MontserratRegular";
   src: url("../fonts/Montserrat/MontserratRegular/Montserrat-Regular.woff");
-  src: url("../fonts/Montserrat/MontserratRegular/Montserrat-Regular.ttf") format("truerype"),
-      url("../fonts/Montserrat/MontserratRegular/Montserrat-Regular.svg") format('svg');
+  src: url("../fonts/Montserrat/MontserratRegular/Montserrat-Regular.ttf") format('truerype'),
+       url("../fonts/Montserrat/MontserratRegular/Montserrat-Regular.svg") format('svg');
   font-style: normal;
   font-weight: normal;
 }
@@ -12,8 +14,8 @@
 @font-face {
   font-family: "MontserratBold";
   src: url("../fonts/Montserrat/MontserratBold/Montserrat-Bold.woff");
-  src: url("../fonts/Montserrat/MontserratBold/Montserrat-Bold.ttf") format("truerype"),
-      url("../fonts/Montserrat/MontserratBold/Montserrat-Bold.svg") format('svg');
+  src: url("../fonts/Montserrat/MontserratBold/Montserrat-Bold.ttf") format('truerype'),
+       url("../fonts/Montserrat/MontserratBold/Montserrat-Bold.svg") format('svg');
   font-style: normal;
   font-weight: 700;
 }
