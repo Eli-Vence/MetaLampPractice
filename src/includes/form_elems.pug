@@ -11,10 +11,29 @@
           .text
             .title Text Field
             .description Hover / Focus
-          input(type="text" placeholder="This is pretty awesome")
+          input(type="text" placeholder="This is pretty awesome").focus
         .dropdown
           .title Dropdown
-          select(name="date") 
+          .select-guest 
+            select(name="person") 
+              option Сколько гостей
+            span.material-icons expand_more
         .masked-text-field
           .title masked text field
           input(type="text" placeholder="ДД.ММ.ГГГГ")
+      .date-and-sub 
+        .date-dropedown
+          .first-dropdown 
+            .title date Dropdown
+            input(type="date")
+          .second-dropdown 
+            .title date Dropdown
+            input(type="date")
+        .date-filter 
+          .title filter date dropdown
+          input(type="date")
+        .subfield
+          .title subscription text field
+          input(type="text", placeholder="Email")
+
+
